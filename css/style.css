@@ -352,6 +352,23 @@ ion-icon {
 .cancel:hover {
   background-color: #3d463d10;
 }
+.delete {
+  margin-left: 3rem;
+  display: block;
+  margin-top: 2rem;
+  padding: 10px 22px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: #0d7a5f;
+  border: 1px solid #0d7a5f;
+}
+.delete:hover {
+  color: #fff;
+  background-color: #0d7a5f;
+}
 .save:hover,
 .facto button:hover {
   background-color: #053025;
@@ -407,4 +424,86 @@ ion-icon {
   padding-left: 3rem;
   display: flex;
   gap: 2rem;
+}
+
+.inputs {
+  padding-left: 3rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.add {
+  width: 280%;
+}
+
+input {
+  outline: none;
+}
+
+input:focus {
+  outline: 1px solid #000;
+}
+
+main p {
+  margin-top: 3rem;
+  margin-left: 3rem;
+  font-size: 1.6rem;
+  color: #67727e;
+}
+.download div p {
+  margin: 0 !important;
+  color: #0d7a5f;
+}
+main h2 {
+  margin-top: 3rem;
+  margin-left: 3rem;
+  font-size: 1.6rem;
+  color: #3d463d;
+}
+.accountBalance {
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #3d463d;
+}
+
+main label {
+}
+
+.redem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin-left: 3rem;
+  margin-top: 2rem;
+}
+
+.redem input {
+  width: 70%;
+}
+
+.download div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.download div ion-icon {
+  color: #0d7a5f;
+}
+
+.tran {
+  margin-top: 2rem !important;
+  color: #3d463d !important;
+}
+
+.download {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.del {
+  margin-right: 3rem;
+  line-height: 1.7;
 }
