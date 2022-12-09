@@ -158,7 +158,7 @@ form p {
 .account-box {
   /* background-color: #000; */
   /* border-radius: 39%; */
-  width: 96rem;
+  width: 86rem;
   /* height: 52.8rem; */
 }
 
@@ -178,7 +178,7 @@ form p {
 aside {
   display: flex;
   flex-direction: column;
-  width: 20rem;
+  width: 30rem;
   border-right: 1px solid #99999980;
 }
 
@@ -288,4 +288,123 @@ ion-icon {
 .logout:hover,
 .nav-btn:hover {
   background-color: #3d463d10;
+}
+
+.mainContent p {
+  font-size: 1.6rem;
+  color: #3d463d;
+  font-weight: 600;
+}
+.password {
+  font-size: 1.6rem;
+  color: #3d463d;
+  font-weight: 600;
+}
+
+.factor {
+  width: 4.6rem !important;
+  border-radius: 0 !important;
+  border: none !important;
+  height: 4.6rem !important;
+}
+.facto {
+  margin-left: 2rem;
+  padding-right: 5rem;
+}
+.facto h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #3d463d;
+}
+
+.facto p {
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  color: #3d463d;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.save,
+.facto button {
+  display: block;
+  margin-top: 2rem;
+  padding: 10px 42px;
+  background-color: #0d7a5f;
+  border-radius: 8px;
+  border: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: #fff;
+}
+.cancel {
+  display: block;
+  margin-top: 2rem;
+  padding: 10px 22px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: #1a1e1d;
+  border: 1px solid #3d463d80;
+}
+.cancel:hover {
+  background-color: #3d463d10;
+}
+.save:hover,
+.facto button:hover {
+  background-color: #053025;
+  transition: all 0.3s ease-in-out;
+}
+.row1 {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  gap: 2rem;
+  /* border-bottom: 1px solid #99999980; */
+  padding-bottom: 1.5rem;
+}
+.row2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  align-items: center;
+  /* border-bottom: 1px solid #99999980; */
+  padding-bottom: 1.5rem;
+}
+
+.row1 p {
+  font-size: 1.6rem;
+  font-weight: 300;
+  display: flex;
+  gap: 2rem;
+}
+
+.row1p {
+  font-size: 2.6rem;
+  /* display: flex; */
+  font-weight: 600 !important;
+  gap: 2rem;
+}
+.row2 {
+  /* margin-top: 1rem; */
+}
+
+.row2 input {
+  width: 1rem;
+}
+.ch {
+  margin-left: 6.5rem;
+}
+
+.notif {
+  display: flex;
+  gap: 2rem;
+}
+
+.btns {
+  padding-left: 3rem;
+  display: flex;
+  gap: 2rem;
 }
