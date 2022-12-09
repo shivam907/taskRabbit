@@ -84,34 +84,11 @@ body {
   color: #333;
 }
 
-.chat {
-  width: 3rem;
-  height: 3rem;
-  z-index: 1;
-}
-
-.chat-bg {
-  position: absolute;
-  bottom: 2rem;
-  left: 2rem;
-  padding: 1.5rem;
-  background-color: #053025;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-}
-.chat-bg:hover {
-  background-color: #111;
-}
-
 form {
-  margin-top: 2rem;
   align-self: flex-start;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.6rem;
   width: 100%;
 }
 .email {
@@ -137,6 +114,13 @@ input {
 
 input::placeholder {
   color: #66666680;
+}
+
+.email a {
+  color: #0d7a5f;
+  font-size: 1.4rem;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 .email a {
