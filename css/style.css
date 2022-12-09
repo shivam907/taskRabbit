@@ -513,3 +513,92 @@ main label {
 .activ {
   margin-left: 3rem;
 }
+
+.task {
+  height: 100vh;
+  background-color: #f9fafb;
+}
+.nav {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: 1px solid #66666640;
+}
+
+.nav img {
+  height: 2rem;
+  /* width: 18.9rem; */
+}
+
+.steps {
+  margin-left: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.one {
+  font-size: 1.4rem;
+  font-weight: 900;
+  width: 2.3rem;
+  height: 2.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d7d6d9;
+  color: #022022;
+  border-radius: 50%;
+}
+
+.one-active {
+  background-color: #0a2b14;
+  color: #fff;
+}
+.line {
+  width: 18rem;
+  height: 0.3rem;
+  background-color: #d7d6d9;
+}
+
+.task-nav {
+  margin-left: 3rem;
+  display: flex;
+  gap: 7.5rem;
+}
+
+.task-nav p {
+  font-size: 1.4rem;
+  color: #3d463d;
+  font-weight: 600;
+}
+
+.step {
+  margin-left: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.tell img {
+  width: 3.2rem;
+}
+
+.tell {
+  width: 100%;
+  padding: 1.6rem;
+  display: flex;
+  gap: 1.6rem;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3.2rem;
+  border-bottom: 2px solid #66666640;
+  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.1);
+}
+.tell p {
+  color: #242a30;
+  font-weight: 200;
+  font-size: 1.6rem;
+}
