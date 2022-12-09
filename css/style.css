@@ -269,7 +269,7 @@ ion-icon {
 .userFullName {
   color: #3d463d;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 2rem !important;
 }
 
 .logout {
@@ -396,9 +396,11 @@ ion-icon {
   font-weight: 300;
   display: flex;
   gap: 2rem;
+  margin: 0 !important;
 }
 
 .row1p {
+  margin: 0 !important;
   font-size: 2.6rem;
   /* display: flex; */
   font-weight: 600 !important;
@@ -506,4 +508,8 @@ main label {
 .del {
   margin-right: 3rem;
   line-height: 1.7;
+}
+
+.activ {
+  margin-left: 3rem;
 }
