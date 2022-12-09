@@ -8,7 +8,7 @@
 
 body {
   height: 100vh;
-  background: url("../img/signUpBg.jpeg");
+  /* background: url("../img/signUpBg.jpeg"); */
   background-size: cover;
 }
 .signUpBox {
@@ -1274,4 +1274,202 @@ b {
 
 ion-icon {
   cursor: pointer;
+}
+
+.nov1 {
+  width: 52.5rem;
+  padding: 2.4rem;
+  border: 1px solid #66666640;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.nov {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.nov h1 {
+  font-size: 1.6rem;
+  color: #3d463d;
+}
+
+textarea {
+  background-color: transparent;
+  /* font-size: 1.4rem; */
+}
+
+.boxn1 {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid #66666640;
+}
+.boxn2 {
+  border-bottom: 1px solid #66666640;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-bottom: 3rem;
+}
+
+.boxn2 h1 {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.boxn2 p {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.radio {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.radio div {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.6rem;
+}
+
+.radio div input {
+  width: 1.6rem;
+}
+
+.boxn1 p {
+  font-size: 1.4rem;
+  line-height: 1.5;
+}
+
+.pay {
+  display: flex;
+  gap: 1rem;
+}
+.iopl {
+  width: 30%;
+}
+
+.iopl1 {
+  width: 20%;
+}
+
+.boxn1 a {
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #0d7a5f;
+}
+
+.boxn1 img {
+  width: 13.6rem;
+}
+
+.kjol {
+  display: flex;
+  font-size: 1.6rem;
+  font-weight: 600;
+  gap: 1rem;
+}
+
+.kjol input {
+  width: 1.6rem;
+}
+
+.boxn1:last-child {
+  border: none;
+}
+
+.lkjh {
+  margin-top: 5rem;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.ool {
+  width: 52.5rem;
+}
+
+.ool button {
+  margin-top: 3rem;
+  margin: 3rem auto;
+}
+
+.nov2 {
+  width: 34.3rem;
+  padding: 2.4rem;
+  height: fit-content;
+  border: 1px solid #66666640;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.nov {
+  gap: 3rem;
+}
+.fgh {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.fgh h2 {
+  font-size: 1.6rem;
+}
+.fgh a {
+  font-size: 1.6rem;
+}
+
+.hjk {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dsa img {
+  width: 6.2rem;
+  border-radius: 50%;
+}
+.qkl {
+  font-size: 1.6rem;
+  display: flex;
+  gap: 1.4rem;
+  align-items: center;
+}
+
+.aklp {
+  color: #0d7a5f;
+}
+
+.aaqk {
+  font-weight: 700;
+}
+
+.sswe {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sswe p {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+.sswe span {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.kpu {
+  font-weight: 500 !important;
+}
+
+.jio {
+  font-size: 2rem !important;
+  font-weight: 700 !important;
 }
