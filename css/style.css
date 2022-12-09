@@ -515,7 +515,7 @@ main label {
 }
 
 .task {
-  height: 100vh;
+  height: 200vh;
   background-color: #f9fafb;
 }
 .nav {
@@ -601,4 +601,171 @@ main label {
   color: #242a30;
   font-weight: 200;
   font-size: 1.6rem;
+}
+
+.cleaning {
+  width: 100rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  /* background-color: #000; */
+}
+
+.cleaning h1 {
+  font-weight: 300;
+  font-size: 2rem;
+  color: #022022;
+  /* padding-bottom: 0.8rem; */
+}
+
+.box1 {
+  display: flex;
+  padding: 3.2rem 4rem;
+  gap: 2.2rem;
+  background-color: #fff;
+
+  border: 1px solid #66666640;
+}
+
+.box1 img {
+  width: 10rem;
+}
+
+.boxContent h1,
+.boxContent h2,
+.boxContent h3 {
+  font-size: 1.6rem;
+}
+
+.boxContent {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.boxContent h1 {
+  color: #022022;
+  font-weight: 600;
+}
+.boxContent h2 {
+  color: #022022;
+  font-weight: 500;
+}
+.boxContent h3 {
+  color: #3d463d;
+  font-weight: 500;
+}
+.box2 {
+  display: flex;
+  padding: 2.2rem;
+  /* gap: 2.2rem; */
+  background-color: #fff;
+  flex-direction: column;
+  gap: 2.4rem;
+  border: 1px solid #66666640;
+}
+
+.box2 h1,
+.box3 h1,
+.box4 h1 {
+  font-size: 1.6rem;
+  color: #3d463d;
+  font-weight: 600;
+}
+
+.inputClean {
+  display: flex;
+  gap: 2rem;
+}
+
+.inp2 {
+  width: 20%;
+}
+
+.chd p {
+  color: #8a8d8c;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+}
+.chd {
+  display: flex;
+  gap: 1rem;
+}
+.chd input {
+  width: 1.8rem;
+}
+
+.box2 button {
+  align-self: center;
+  margin: 2rem 0;
+}
+
+.box3 {
+  display: flex;
+  padding: 2.2rem;
+  /* gap: 2.2rem; */
+  background-color: #fff;
+  flex-direction: column;
+  gap: 2.4rem;
+  border: 1px solid #66666640;
+}
+
+.taskSize h1 {
+  width: fit-content;
+  font-size: 2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #66666640;
+}
+
+.sizeOptions {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10rem;
+}
+
+.sizeOptions div {
+  display: flex;
+  gap: 1rem;
+}
+
+.sizeOptions div p {
+  color: #022022;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.sizeOptions div input {
+  border-radius: 50%;
+  width: 1.6rem;
+}
+
+.box3 button {
+  align-self: center;
+  margin: 1.6rem;
+}
+
+.box4 {
+  display: flex;
+  padding: 2.2rem;
+  /* gap: 2.2rem; */
+  background-color: #fff;
+  flex-direction: column;
+  gap: 2.4rem;
+  border: 1px solid #66666640;
+}
+
+.box4 p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.box4 input {
+  /* height: 10rem; */
+  padding-bottom: 7rem;
+}
+
+.box4 button {
+  align-self: center;
+  margin: 1.6rem;
 }
