@@ -2329,3 +2329,296 @@ textarea {
 .accDash {
   color: #022022 !important;
 }
+
+.becomeHero {
+  width: 120rem;
+  margin: 4rem auto;
+  display: flex;
+  gap: 3.2rem;
+}
+
+.lopine {
+  margin-top: 0.4rem;
+  border-bottom: 1px solid #00000040;
+}
+
+.becomeHero img {
+  width: 80rem;
+}
+.becomeHeroContent {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.becomeHeroContent h1 {
+  font-size: 3.6rem;
+  color: #022022;
+}
+.becomeHeroContent p {
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+.becomeHeroContent label {
+  /* margin-bottom: 0.8rem; */
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.becomeHeroContent select {
+  border: 1px solid #00000040;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 1.6rem;
+  width: 40rem;
+  height: 6rem;
+  margin-bottom: 2.4rem;
+}
+.earnPrice {
+  display: flex;
+  gap: 1rem;
+}
+
+.earnPrice h1 {
+  font-size: 4.4rem;
+}
+
+.becomeHeroContent p {
+  font-size: 1.8rem;
+  color: #022022;
+}
+
+.becomeHeroContent button {
+  padding: 1rem;
+}
+
+.becomeHeroContent select:last-child {
+  margin-bottom: 0;
+}
+.loginy {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginy a {
+  color: #0d7a5f;
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+
+.nclr {
+  background-color: transparent !important;
+}
+
+.linruy {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.liner1 {
+  width: 10rem;
+  height: 0.4rem;
+  background-color: #0d7a5f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dotlon {
+  width: 1rem;
+  height: 1rem;
+  background-color: #0d7a5f;
+  margin: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.flexible {
+  width: 120rem;
+  margin: 4rem auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.flexible1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 2.4rem;
+}
+
+.flexible1 h1 {
+  font-size: 3.6rem;
+  color: #022022;
+}
+
+.flexible1 p {
+  width: 40rem;
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 1.4;
+}
+.flexible2 {
+  margin-top: 8rem;
+  display: flex;
+
+  gap: 4rem;
+}
+
+.flbox {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.flbox p {
+  font-size: 1.8rem;
+}
+
+.flbox h1 {
+  font-size: 2.8rem;
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.flbox img {
+  align-self: flex-start;
+  height: 5rem;
+}
+.whatis {
+  width: 120rem;
+  margin: 8rem auto;
+  display: flex;
+}
+.whatis img {
+  width: 80rem;
+}
+.whatisContent {
+  padding: 2.4rem 0 0 3.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.whatisContent h1 {
+  font-size: 3.6rem;
+}
+.whatisContent p {
+  font-size: 1.8rem;
+}
+.forrem {
+  /* margin-top: 0 !important; */
+  margin-top: -4rem !important;
+}
+.pdong {
+  padding-right: 3.2rem;
+  padding-left: 0;
+}
+.pdong h1 {
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 1.6rem;
+}
+.pdong {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pdong p {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.pdong img {
+  width: 5rem;
+}
+
+.qna {
+  width: 120rem;
+  margin: 4rem auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.qna h1 {
+  font-size: 4.4rem;
+  margin-bottom: 8rem;
+}
+.qnas {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 20rem;
+}
+.qnabox {
+  width: 50rem;
+  padding-bottom: 2.4rem;
+  border-bottom: 1px solid #00000040;
+}
+.qnabox a {
+  width: 50rem;
+  font-size: 1.8rem;
+  color: #0d7a5f;
+  /* border: none !important; */
+  text-decoration: none;
+}
+
+.qnrow {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.readyTo {
+  width: 100%;
+  height: 40rem;
+  background: url("/img/ready.jpeg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+}
+
+.readyTo h1 {
+  font-size: 4.4rem;
+}
+
+.readyTo button {
+  /* width: ; */
+  padding: 1rem 2.5rem;
+  font-size: 1.8rem;
+}
+
+.companies {
+  width: 100%;
+  height: 32.4rem;
+  background-color: #f9fafb;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  align-items: center;
+}
+.company1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 3.5rem;
+  width: 30.9rem;
+}
+
+.company1 img {
+  width: 22.4rem;
+}
+.company1 p {
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
